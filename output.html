@@ -1,0 +1,575 @@
+﻿
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- Horizons, by Xn Leisure -->
+    <!-- Version: 3.9.41126.1 -->
+    
+    <!-- XnCentral Web Service version: 3.11.40516.1 -->
+        
+    
+    <!-- XnCoordinator Web Service version: 3.11.40516.1 -->
+    
+
+    <!-- Some icons created by FamFamFam - http://www.famfamfam.com/lab/icons/silk/ -->
+    <!-- Some, other, icons created by 19Eighty7 - http://19eighty7.com/icons -->
+    <title>
+	Sport Imperial Bookings - 
+    Search Results
+
+</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"  />
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8"  />
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js' type='text/javascript'></script>
+<script src='https://ajax.aspnetcdn.com/ajax/4.0/1/MicrosoftAjax.js' type='text/javascript'></script>
+<script src='https://ajax.aspnetcdn.com/ajax/mvc/2.0/MicrosoftMvcAjax.js' type='text/javascript'></script>
+<script src='/sports/bookings/Scripts/colorbox/jquery.colorbox-min.js' type='text/javascript'></script>
+
+
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js' type='text/javascript'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/i18n/jquery.ui.datepicker-.js' type='text/javascript'></script>
+<script type='text/javascript'>var preferredCulture='';</script>
+
+<script type='text/javascript' src='/sports/bookings/Scripts/jquery.blockUI.js'></script>
+
+    <script src='/sports/bookings/Scripts/tipTip/jquery.tipTip.minified.js' type='text/javascript'></script>
+    
+    
+    <link rel='stylesheet' type='text/css' href='/sports/bookings/Content/Styling/Imperial/jQueryUI/custom-theme/jquery-ui-1.8.13.custom.css'/>
+    <link rel='stylesheet' type='text/css' href='/sports/bookings/Content/Styling/common/css/Colorbox/style1/colorbox.css'/>
+
+    
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js' type='text/javascript'></script>
+
+        
+        <script src="/sports/bookings/Scripts/Horizons/SearchResults.min.js" type="text/javascript"></script>
+        <script src='/sports/bookings/Scripts/TableSorter/jquery.tablesorter.js' type='text/javascript'></script>
+        
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $("th[title]").tipTip({ defaultPosition: "top" });
+                    $("td[title]").tipTip({ defaultPosition: "top" });                    
+                });
+            </script>
+        
+
+                <script type='text/javascript'>                    var urlRoot = '/sports/bookings/';</script>
+            <link href="/sports/bookings/Content/Styling/imperial/css/setup.css" media="screen,projection,print" type="text/css" rel="stylesheet"  />
+<link href="/sports/bookings/Content/Styling/imperial/css/text.css" media="screen,projection,print" type="text/css" rel="stylesheet"  />
+<link href="/sports/bookings/Content/Styling/common/css/Horizons.css" media="screen,projection,print" type="text/css" rel="stylesheet"  />
+<link href="/sports/bookings/Content/Styling/imperial/css/HorizonsDefault.css" media="screen,projection,print" type="text/css" rel="stylesheet"  />
+<link href="/sports/bookings/Content/Styling/imperial/css/imperial.css" media="screen,projection,print" type="text/css" rel="stylesheet"  />
+<link rel="icon" type="image/icon" href="/sports/bookings/Content/Styling/imperial/img/favicon.ico"  />
+</head>
+
+    
+<body>
+
+    <div id="Container" class="page-container" >
+
+        
+        
+   
+   <div id="UpperRegion" class="header" >
+
+                        
+<!-- have to put this here as when we add to the html header via the XML config file it appears first
+                                     and jQuery is unknown :-)    --><script src="/sports/bookings/Scripts/Imperial.js"></script><a id="SportImperialHeaderAnchor" title="Sport Imperial Bookings - Home" href="/sports/bookings/"><img id="SportImperialHeader" src="/sports/bookings/Content/Styling/imperial/img/imperial_bg_head_top.jpg" alt="Imperial College London - Sport Imperial Bookings" /></a>
+            
+            
+                            <h1><span></span></h1>
+                            <h2><span></span></h2>
+                             
+                                <script type="text/javascript">
+                                    jQuery(document).ready(function () {
+                                        jQuery.ajax({
+                                            url: ('/sports/bookings/Home/VerifyJava')
+                                        });
+                                    });
+                                </script>
+                            
+
+        <div class="nav2">
+            
+            
+        
+    <script type='text/javascript'>
+        $(document).ready(function () {
+            $.getJSON('/sports/bookings/Messages/GetMessageCount', null, function (data) {
+                $("#messagecount").text(data);
+            });
+        }); 
+    </script>
+    
+
+    <ul class="MenuList MenuL1">
+        <li class="MenuItem MenuItemL1"><a href="&#47;sports&#47;bookings&#47;">Home</a></li>
+        
+        <li class="MenuItem MenuItemL1"><a href='/sports/bookings/Home/Terms'>Ts &#38; Cs</a></li>
+        
+        <li class="MenuItem MenuItemL1"><a href='http://www.imperial.ac.uk/sports/bookings/Home/Contact'>Contact Us</a></li>
+        
+        <li class="MenuItem MenuItemL1"><a href='/sports/bookings/Home/Help'>Help</a></li>
+                
+    </ul></div>
+                    </div>
+
+        
+                        <div id="CentralRegion" class="main">
+                            <div class="main-subcontent">
+                                <div class="subcontent-unit-border-blue">
+                                    <div class="round-border-topleft"> </div>
+                                    <div class="round-border-topright"> </div>
+                                    
+            
+            
+
+        <script src="/sports/bookings/Scripts/Horizons/SearchCriteria.min.js" type="text/javascript"></script>
+        
+
+        <script type="text/javascript">
+
+            $(document).ready(function() {
+
+                PrepareJsSearch();
+            });
+
+        </script>
+        
+
+<div id="SearchCriteria" class="NormalStateSearch">
+    <div id="SearchBoxContent">
+        <h1><span>Search</span></h1>
+        <form action="&#47;sports&#47;bookings&#47;Search&#47;PerformSearch" class="CriteriaDropDowns" method="post">
+
+            <!-- Search type selection -->
+            <div id="SearchTypeRadioButtons" >
+                <h2><span>I want to book</span></h2>                    
+
+                <ul id="SearchTypeList">
+                    
+                    <li><input id="searchForActivity" name="searchType" type="radio" value="0"  checked='checked' /><label for="searchForActivity">Activities</label></li>
+                    
+                    <li><input id="searchForClass" name="searchType" type="radio" value="1" /><label for="searchForClass">Classes</label></li>
+                    
+                    <li><input id="searchForSession" name="searchType" type="radio" value="2" /><label for="searchForSession">Courses</label></li>
+                    
+                </ul>
+            </div>
+
+    
+                <fieldset>
+                    <div id="SearchDropdowns">
+                        <input id="SearchType" name="SearchType" type="hidden" value="0" />
+<input id="PersistSearchTimes" name="PersistSearchTimes" type="hidden" value="False" />
+<!-- Site selection -->
+<script type="text/javascript">
+
+                $(document).ready(function () {
+                    $('#SiteID').change(Activity_SiteSelected);                    
+                    
+                });
+
+            </script>
+        <p id='SiteSelection'>
+    <label id='SiteDDLabel' for='SiteID'>Site:</label>
+    <br class='optionalBr' />
+
+        <select id="SiteID" name="SiteID"><option selected="selected" value="1">Ethos</option>
+</select>
+            
+        </p>
+<script type="text/javascript">
+
+                $(document).ready(function () {
+                    $('#Activity').change(Activity_ActivitySelected);                    
+                    
+                });
+
+            </script>
+        <p id='ActivitySelection'>
+    <label id='ActivityDDLabel' for='Activity'>Activity:</label>
+    <br class='optionalBr' />
+
+        <select id="Activity" name="Activity"><option value="2011">5 A Side Footbal</option>
+<option selected="selected" value="2012">Badminton</option>
+<option value="2013">Basketball</option>
+<option value="2014">Basketball Practice</option>
+<option value="3037">Fitness Orientation</option>
+<option value="2017">Futsal</option>
+<option value="2018">Handball</option>
+<option value="2019">Hockey</option>
+<option value="2020">Netball</option>
+<option value="2021">Squash</option>
+<option value="2022">Table Tennis</option>
+<option value="2023">Volleyball</option>
+</select>
+        </p><p id='DateSelection'>
+    <label id='DateDDLabel' for='SearchDate'>Date:</label>
+    <br class='optionalBr' />
+     
+
+                                      
+                <input type="text" id="SearchDate" name="SearchDate" value="02&#47;14&#47;2018"/>
+                <input type="hidden" id="EnglishDate" name="EnglishDate" value="14_02_2018"/>            
+            </p>
+            
+            <script type="text/javascript">
+
+                $(document).ready(function () {
+                    $('#SearchDate').change(Activity_DateSelected);                    
+                    $.datepicker.setDefaults( $.datepicker.regional[ preferredCulture] ); $('#SearchDate').datepicker({ minDate: 0, maxDate: 8, altField: '#EnglishDate', altFormat: 'd_mm_yy'});
+                });
+
+            </script>
+            <script type="text/javascript">
+
+                $(document).ready(function () {
+                    $('#English_TimeFrom').change(Activity_TimeFromSelected);                    
+                    
+                });
+
+            </script>
+        <p id='TimeSelectionFrom'>
+    <label id='TimeFromDDLabel' for='English_TimeFrom'>From:</label>
+    <br class='optionalBr' />
+
+                <select id="English_TimeFrom" name="English_TimeFrom"><option value="07_00">07&#58;00</option>
+<option selected="selected" value="08_00">08&#58;00</option>
+<option value="09_00">09&#58;00</option>
+<option value="10_00">10&#58;00</option>
+<option value="11_00">11&#58;00</option>
+<option value="12_00">12&#58;00</option>
+<option value="13_00">13&#58;00</option>
+<option value="14_00">14&#58;00</option>
+<option value="15_00">15&#58;00</option>
+<option value="16_00">16&#58;00</option>
+<option value="17_00">17&#58;00</option>
+<option value="18_00">18&#58;00</option>
+<option value="19_00">19&#58;00</option>
+<option value="20_00">20&#58;00</option>
+<option value="21_00">21&#58;00</option>
+</select>
+                </p><script type="text/javascript">
+
+                $(document).ready(function () {
+                    $('#English_TimeTo').change(Activity_TimeToSelected);                    
+                    
+                });
+
+            </script>
+        <p id='TimeSelectionTo'>
+    <label id='TimeToDDLabel' for='English_TimeTo'>To:</label>
+    <br class='optionalBr' />
+
+                <select id="English_TimeTo" name="English_TimeTo"><option value="09_00">09&#58;00</option>
+<option value="10_00">10&#58;00</option>
+<option value="11_00">11&#58;00</option>
+<option value="12_00">12&#58;00</option>
+<option value="13_00">13&#58;00</option>
+<option value="14_00">14&#58;00</option>
+<option value="15_00">15&#58;00</option>
+<option value="16_00">16&#58;00</option>
+<option value="17_00">17&#58;00</option>
+<option value="18_00">18&#58;00</option>
+<option value="19_00">19&#58;00</option>
+<option value="20_00">20&#58;00</option>
+<option value="21_00">21&#58;00</option>
+<option selected="selected" value="22_00">22&#58;00</option>
+</select>
+                </p><script type="text/javascript">
+
+                $(document).ready(function () {
+                    $('#Duration').change(Activity_DurationSelected);                    
+                    
+                });
+
+            </script>
+        <p id='DurationSelection'>
+    <label id='DurationDDLabel' for='Duration'>Duration:</label>
+    <br class='optionalBr' />
+
+                <select id="Duration" name="Duration"><option selected="selected" value="60">60 minutes</option>
+</select>
+                </p>
+        
+<div id="SearchCriteriaFooter">
+
+     
+
+     <div id="SearchButtonDiv">
+        <input class="NavigationButton" type="submit" name="submitButton" value="Search" />
+     </div>
+
+</div>
+                    </div>
+                </fieldset>
+                
+
+<div id="SearchProgressNavigation" >
+    <input type="hidden" name="PartialNonJavaSearch" value="false" />
+    
+        <input class="NavigationButton" type="submit" name="submitButton" value="Start New Search" id="RestartSearch" />
+    
+</div>
+
+</form>
+    </div>
+</div>
+                                </div>
+                            </div>
+
+
+        
+                        <div class="main-content" >
+                            
+            
+            
+
+
+
+
+
+
+<div id="subLocDialog" title="Additional Booking Information is Required" style="display: none;">
+    <p>Please choose a sublocation for your booking.</p>
+    <form action="">
+        <div>
+            <select id="subLocSelect" name="subLocSelect"><option></option></select>
+        </div>
+    </form>
+</div>
+ <form action="&#47;sports&#47;bookings&#47;Search&#47;AddSearchResultToBasket" id="ItemForBasket" method="post">
+    <div>
+        <input name="selectedSiteNo"  id="selectedSiteNo" type="hidden" value="" />
+        <input name="selectedResultId" id="selectedResultId" type="hidden" value="" />
+        <input name="selectedSubloc"  id="selectedSubloc" type="hidden" value="" />
+    </div>
+</form>
+<script type="text/javascript">
+
+    jQuery(document).ready(function ($) {
+
+        $(function () {
+            registerSublocDialog();
+        });
+
+        $(function () {
+            $("#accordion").accordion({
+                navigation: true,
+                collapsible: true,
+                autoHeight: false,
+                changestart: function (event, ui) {
+                    var site = ui.newContent.children("input:hidden").val();
+                    if (site != undefined) {
+                        ui.newContent.empty();
+                        var URL = absUrl('Search/RepeatSearch?Site=' + site);
+                        jQuery.ajax({
+                            url: URL,
+                            success: function (data) {
+                                ui.newContent.append(data);
+                            },
+                            cache: false
+                        });
+                    }
+                }
+            });
+        });
+    });
+
+</script>
+
+
+    <div id="SearchResultsWrapper" class="activeAreaWrapper">
+        <div id="SearchResults" class="activeArea">
+            
+                    <h1>Search results for  on Wednesday, 14 February 2018</h1>
+                    
+
+
+
+<ul id="SearchDateControl">
+    
+    <li>
+        
+            <span class="unavailableSearch">&#60;&#60; Previous Week</span>
+        
+    </li>
+    <li class="separator">
+        <span>&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+        <a href="&#47;sports&#47;bookings&#47;Search&#47;RepeatSearch&#63;SearchDate&#61;02&#37;2F13&#37;2F2018&#37;2000&#37;3A00&#37;3A00">&#60; Previous Day</a>
+        
+    </li>    
+    <li class="separator">
+        <span>&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+        <a href="&#47;sports&#47;bookings&#47;Search&#47;RepeatSearch&#63;SearchDate&#61;02&#37;2F15&#37;2F2018&#37;2000&#37;3A00&#37;3A00">Next Day &#62;</a>
+        
+    </li>
+    <li class="separator">
+        <span>&nbsp;|&nbsp;</span>
+    </li>
+    <li>
+        
+            <span class="unavailableSearch">Next Week &#62;&#62;</span>
+        
+    </li>
+</ul>
+
+
+                <div id="activeAreaMain">
+                    <div class='ui-widget' id='NonMemberPricesWarning' >
+    <div class='ui-state-highlight ui-corner-all padded-widget'>        <p><span class='padded-widget-icon ui-icon ui-icon-info'></span>As a member, you may be entitled to discounted prices. Please <a href="&#47;sports&#47;bookings&#47;Search&#47;MemberResults&#63;site&#61;1">Log On</a> or <a href="&#47;sports&#47;bookings&#47;Account&#47;Register">Register</a> to update prices below.</p>
+    </div>
+</div>
+
+                    
+                    
+                    <div id="accordion">
+                    
+                        <h3><a href="&#47;sports&#47;bookings&#47;Search&#47;Results&#63;site&#61;1">Ethos</a></h3>
+                        <div class="SiteResults">
+                            <div class= "SiteContactLink"><a href='/sports/bookings/Home/Contact?siteID=1'>Contact this site</a></div>
+                            
+
+    <script type="text/javascript">
+        $.tablesorter.addParser({
+            // set a unique id 
+            id: 'cost',
+            is: function (s) {
+                // return false so this parser is not auto detected 
+                return false;
+            },
+            format: function (s) {
+                // format your data for normalization 
+                if (s == undefined)
+                    return s;
+                else
+                    return s.replace('£ Free', 0).replace(
+                                    'Price Unavailable', 999999).replace(
+                                    '£', '').replace(
+                                    '<span class="PriceLabel">', '').replace(
+                                    '</span>', '');
+            },
+            // set type, either numeric or text 
+            type: 'numeric'
+        }); 
+     
+    </script>
+                                            <script type="text/javascript">addAvailabilityParser();</script>
+                                            
+                         
+                            
+                                <p id="NoSearchResultsNotice" class="InformationParagraph">There is no availability here for the criteria you have selected.  Try broadening your search, or trying a different day or site.</p>
+                            
+                        </div>
+                    
+                    
+                    </div>
+                </div>
+        
+        </div>
+    </div>
+
+
+                
+                        </div>                        
+                    
+
+        <div id="RColumn" class="main-navigation" >
+
+
+            
+            
+
+
+    <div id="logindisplay">
+         
+        
+
+                <div class="unauthenticatedLogonControl">
+
+                    
+                    <div class="logonLinks">
+                        [ <a href="&#47;sports&#47;bookings&#47;Account&#47;LogOn">Log On</a> ]
+                        [ <a href="&#47;sports&#47;bookings&#47;Account&#47;Register">Register</a> ]
+                    </div>
+                    
+
+                </div>
+
+        
+
+                    
+    </div> 
+
+        
+            
+            
+
+<div id="BasketSummaryOuterContainer" >
+                        
+    
+
+
+<div id="BasketSummaryContainer" class="EmptyBasketSummaryContainer">
+                        
+    <div id="BasketSummary">
+        <h1>Basket</h1>
+        <div id="Basket">
+            <div id="BasketContent">
+                
+                    <div id="EmptyBasketSummary">
+                        <p>Your basket is currently empty.</p>
+                    </div>
+
+                    
+            </div>
+        </div>
+    </div>           
+
+</div>        
+
+</div> 
+    <div id="SportImperialLogoWrapper">    
+        <img id="SportImperialLogo" src="/sports/bookings/Content/Styling/imperial/img/sport_imperial_small.jpg" alt="Sport Imperial logo" />
+        <br />
+        
+    </div>  <!-- Sport Imperial logo wrapper -->
+
+    <div id="SportImperialSocialNetwork" class="socialNetwork">
+
+        <a title="facebook link opens in a new window" target="_blank" href="http://www.facebook.com/sportimperial">
+            <img class="SocialNetworkLinks" title="facebook" alt="facebook" src="/sports/bookings/Content/Styling/imperial/img/72621935.PNG" />
+        </a>
+    
+        <a title="twitter link opens in a new window" target="_blank" href="http://www.twitter.com/sportimperial">
+            <img class="SocialNetworkLinks" title="twitter" alt="twitter" src="/sports/bookings/Content/Styling/imperial/img/72621936.PNG" />
+        </a>
+
+    </div> <!-- SportImperialSocialNetwork -->
+
+</div> <!-- This ends the RColumn main-navigation div (as at 25 Feb 2015).  It was in the standard default RColumn.html file --></div>
+
+        <div id="LowerRegion" class="footer"><p>
+                                Sport Imperial Bookings © Imperial College London 2015 | Ethos, 7 Prince's Gardens, London, SW7 1NA 
+                            </p><p><span class="contactAndCredits">Tel: 0207 594 6660 | Email:
+                                 <a href="mailto:ethos@imperial.ac.uk" title="Email ethos@imperial.ac.uk">ethos@imperial.ac.uk</a> |
+                                 Original CSS Design by
+                                 <a href="http://www.1-2-3-4.info" title="Designer Homepage">G. Wolfgang, 1234.info</a></span></p></div>
+            
+            
+
+                  
+        
+
+    </div>
+
+
+</body>
+
+</html>
